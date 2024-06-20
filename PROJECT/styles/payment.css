@@ -1,0 +1,72 @@
+*{
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #faf3d9;
+    }
+    .header {
+        background-color: #820000;
+        color: white;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header h1 {
+        margin: 0;
+        padding-left: 20px;
+    }
+    .header .user-icon {
+        width: 40px;
+        height: 40px;
+        border: 2px solid white;
+        border-radius: 50%;
+        background-image: url('user-icon.png'); /* Replace with actual icon URL */
+        background-size: cover;
+        background-position: center;
+        margin-right: 20px;
+    }
+    .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        height: calc(100vh - 100px); /* Adjust height to fit the screen */
+    }
+    .content .payment-methods {
+        background-color: #e6ded4;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+    }
+    .content .payment-methods h2 {
+        margin-top: 0;
+    }
+    .payment-methods .method {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 0;
+    }
+    .payment-methods .method img {
+        height: 30px;
+    }
+    .footer {
+        background-color: #820000;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+    }
+    .footer .social-icons {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    .footer .social-icons img {
+        width: 30px;
+        height: 30px;
+    }
+}

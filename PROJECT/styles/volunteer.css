@@ -1,0 +1,94 @@
+*{
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #faf3d9;
+    }
+    .header {
+        background-color: #820000;
+        color: white;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header h1 {
+        margin: 0;
+        padding-left: 20px;
+    }
+    .header .user-icon {
+        width: 40px;
+        height: 40px;
+        border: 2px solid white;
+        border-radius: 50%;
+        background-image: url('user-icon.png');
+        background-size: cover;
+        background-position: center;
+        margin-right: 20px;
+    }
+    .content {
+        display: flex;
+        padding: 20px;
+    }
+    .content .left {
+        flex: 1;
+        padding: 20px;
+    }
+    .content .left img {
+        width: 100%;
+        border-radius: 10px;
+    }
+    .content .left .description {
+        margin-top: 20px;
+        background-color: #e6ded4;
+        padding: 15px;
+        border-radius: 10px;
+    }
+    .content .right {
+        flex: 1;
+        padding: 20px;
+    }
+    .content .right h2 {
+        margin-top: 0;
+    }
+    .form-container {
+        background-color: #e6ded4;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    .form-container input[type="text"], 
+    .form-container input[type="email"] {
+        width: calc(100% - 20px);
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+    .form-container button {
+        width: 100%;
+        padding: 10px;
+        background-color: #820000;
+        color: white;
+        border: none;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+    .footer {
+        background-color: #820000;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+    }
+    .footer .social-icons {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    .footer .social-icons img {
+        width: 30px;
+        height: 30px;
+    }
+}
